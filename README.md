@@ -1,1 +1,1 @@
-Just experimenting in python :)
+Just experimenting with python :)
