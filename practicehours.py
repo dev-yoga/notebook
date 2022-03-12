@@ -4,7 +4,7 @@ print('You have', practice_minutes, 'practice minutes.')
 
 print(practice_minutes)
 
-print(practice_minutes / 2)
+print(int(practice_minutes) / 2)
 
 # practice_hours = (practice_minutes / 2)
 
