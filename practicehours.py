@@ -6,6 +6,4 @@ practice_hours = (int(practice_minutes) / 60)
 
 hours_remaining = (50 - int(practice_hours)) 
 
-print(hours_remaining)
-
-# print('You have', practice_hours, 'practice hours and you require', hours_remaining, 'to complete your training requirements.')
+print('You have', round(practice_hours), 'practice hours and you require', hours_remaining, 'more hours to meet your training requirements.')
