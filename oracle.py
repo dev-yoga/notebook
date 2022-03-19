@@ -27,7 +27,8 @@ elif random_number == 8:
   answer = "Outlook not so good."
 elif random_number == 9:
   answer = "Very doubtful."
-
+else:
+    print("Error. Try again.")
 
 print("Your question: ", question)
 
