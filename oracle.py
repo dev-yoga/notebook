@@ -1,6 +1,6 @@
 import random
 
-name = "Oracle"
+name = input("What is your name?")
 
 question = input("What is your question?")
 
@@ -30,6 +30,11 @@ elif random_number == 9:
 else:
     print("Error. Try again.")
 
-print("Your question: ", question)
-
-print("The oracle's reply is: ", answer)
+if question == "":
+  print("If there are no questions there are no answers.")
+elif name == "":
+  print("Question: ", question)
+  print("Magic 8-Ball's answer: ", answer)
+else:
+  print(name, "asks: ", question)
+  print("Magic 8-Ball's answer: ", answer)
